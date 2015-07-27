@@ -1,5 +1,317 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<GridLayout
 
-</LinearLayout>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/paso1de5"
+
+    android:columnCount="4"
+
+    android:rowOrderPreserved="true"
+
+
+
+    android:useDefaultMargins="true"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#2196F3"
+
+    tools:context=".GridXMLActivity"
+
+    >
+    <TextView
+        android:id="@+id/encabezado_rc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+
+        android:layout_columnSpan="4"
+        android:layout_column="0"
+        android:layout_row="0"
+
+        android:gravity="center_horizontal"
+        android:background="#FF9800"
+
+        android:text="Reporte Criminalístico"
+        android:textColor="#FCE4EC"
+        android:textSize="25sp"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <TextView
+        android:id="@+id/lugar_del_suceso_paso_2_de_5"
+
+        android:padding="10dp"
+
+        android:layout_columnSpan="2"
+        android:layout_column="0"
+
+        android:background="#8BC34A"
+
+        android:text="Lugar del Suceso"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <TextView
+        android:id="@+id/paso_2_de_5"
+        android:layout_width="252dp"
+
+        android:layout_gravity="left"
+
+        android:gravity="right"
+
+        android:padding="10dp"
+
+        android:layout_columnSpan="2"
+        android:layout_column="2"
+
+        android:background="#304FFE"
+
+        android:text="2 de 5"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <TextView
+        android:id="@+id/av_transv_calle_paso_2_de_5"
+        android:layout_gravity="right"
+
+        android:padding="10dp"
+        android:layout_columnSpan="2"
+        android:layout_column="0"
+
+        android:background="#304FFE"
+
+        android:text="Av/Transv/Calle"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <TextView
+        android:id="@+id/av_transv_calle_campo_1_de_5"
+
+        android:layout_width="252dp"
+
+        android:padding="10dp"
+
+        android:layout_columnSpan="2"
+        android:layout_column="2"
+
+        android:background="#304FFE"
+
+        android:text="10/08/2015"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+
+    <TextView
+        android:id="@+id/cruce_con_entre_paso_2_de_5"
+
+        android:layout_gravity="right"
+
+        android:padding="10dp"
+
+        android:layout_columnSpan="2"
+        android:layout_column="0"
+
+        android:background="#304FFE"
+
+        android:text="Cruce con/Entre"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <TextView
+        android:id="@+id/cruce_con_entre_campo_paso_2_de_5"
+
+        android:layout_width="252dp"
+
+        android:layout_gravity="left"
+
+        android:padding="10dp"
+
+        android:layout_columnSpan="2"
+        android:layout_column="2"
+
+        android:background="#304FFE"
+
+        android:text="12:12 PM"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <TextView
+        android:id="@+id/qta_edif_neg_paso_2_de_5"
+
+        android:layout_gravity="right"
+
+        android:padding="10dp"
+
+        android:layout_columnSpan="2"
+        android:layout_column="0"
+
+        android:background="#304FFE"
+
+        android:text="Qta/Edif/Negocio"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <TextView
+        android:id="@+id/qta_edif_neg_campo_paso_2_de_5"
+        android:layout_width="252dp"
+
+        android:padding="10dp"
+        android:layout_columnSpan="2"
+        android:layout_column="2"
+
+        android:background="#304FFE"
+
+        android:text="12:12 PM"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <TextView
+        android:id="@+id/qta_edif_neg_campo_paso_2_de_5"
+
+        android:padding="10dp"
+        android:layout_columnSpan="2"
+        android:layout_column="0"
+
+        android:background="#304FFE"
+
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <CheckBox
+        android:id="@+id/abierto_paso_2_de_5"
+
+        android:layout_gravity="right"
+
+        android:layout_column="2"
+
+        android:padding="10dp"
+
+        android:background="#304FFE"
+
+        android:text="Abierto"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <CheckBox
+        android:id="@+id/cerrado_paso_2_de_5"
+
+        android:padding="10dp"
+
+        android:layout_column="3"
+
+        android:background="#304FFE"
+
+        android:text="Cerrado"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+    <TextView
+        android:id="@+id/especifique_paso_2_de_5"
+
+        android:padding="10dp"
+        android:layout_columnSpan="2"
+        android:layout_column="0"
+
+        android:layout_gravity="right"
+
+        android:background="#304FFE"
+
+        android:text="Especifíque"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+    <TextView
+        android:id="@+id/especifique_campo_paso_2_de_5"
+
+        android:layout_width="252dp"
+
+        android:padding="10dp"
+        android:layout_columnSpan="2"
+        android:layout_column="2"
+
+        android:background="#304FFE"
+
+        android:text="12:12 PM"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+    <TextView
+        android:id="@+id/pto_ref_paso_1_de_5"
+
+        android:layout_gravity="right"
+
+        android:padding="10dp"
+        android:layout_columnSpan="2"
+        android:layout_column="0"
+
+        android:background="#304FFE"
+
+        android:text="Pto de Referencia"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+    <TextView
+        android:id="@+id/pto_ref_campo_paso_1_de_5"
+
+        android:layout_width="252dp"
+
+        android:layout_columnSpan="2"
+        android:layout_column="2"
+
+        android:padding="10dp"
+
+        android:background="#304FFE"
+
+        android:text="12:12 PM"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto-Condensed"
+        />
+
+
+
+</GridLayout>
